@@ -17,6 +17,41 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+h1 {
+  /* Primary */
+
+  width: 155px;
+  height: 48px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  /* Primary */
+  color: #074ee8;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.button-components-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  padding: 10rem;
+}
+
+.alert-components-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  padding: 5rem 0 5rem 0;
+  /* padding: 10rem; */
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

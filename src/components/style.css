@@ -1,0 +1,120 @@
+.primary {
+  /* Large */
+
+  width: 171.19px;
+  height: 50px;
+  top: 273px;
+  left: 278.92px;
+  padding: 0px 16px 0px 16px;
+  gap: 8px;
+  border-radius: 4px;
+  opacity: 0px;
+
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 400;
+  font-size: large;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  display: flex;
+  align-items: center;
+
+  /* Surface */
+  color: #ffffff;
+  background-color: #074ee8;
+  /* Inside auto layout */
+  display: flex;
+  justify-content: center;
+  order: 1;
+  flex-grow: 0;
+}
+
+.secondary {
+  /* Large */
+
+  width: 171.19px;
+  height: 50px;
+  top: 273px;
+  left: 278.92px;
+  padding: 0px 16px 0px 16px;
+  gap: 8px;
+  border-radius: 4px;
+  opacity: 0px;
+
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 400;
+  font-size: large;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  display: flex;
+  align-items: center;
+
+  /* Surface */
+  color: #ffffff;
+  background-color: #07a4e8;
+  /* Inside auto layout */
+  display: flex;
+  justify-content: center;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* .page {
+  width: 100vw;
+  height: 100vh;
+} */
+.container {
+  width: 331.11px;
+  height: auto;
+  top: 273px;
+  left: 119px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.alertMsg {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: Sarabun;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+
+.alertBox {
+  width: 650px;
+  height: 76px;
+  top: 251px;
+  left: 118px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: kanit;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29.9px;
+  text-align: left;
+  color: #444444;
+  background: #F9C8C8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Sarabun;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
