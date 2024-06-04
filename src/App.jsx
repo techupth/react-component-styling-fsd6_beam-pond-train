@@ -1,14 +1,20 @@
 import "./App.css";
-
+import * as button from "./components/Button.jsx";
+import * as alert from "./components/Alert.jsx";
+import * as alertBox from "./components/AlertBox.jsx";
 function App() {
   return (
     <div className="App">
+      <h1> Button</h1>
+      <hr />
       <div className="button-components-section">
-        {/* Render ตัว Button 2 แบบ */}
+        <button.Button />
+        <alert.Alert />
       </div>
+      <h1> Alert</h1>
       <hr />
       <div className="alert-components-section">
-        {/* Render ตัว Alert 4 แบบ */}
+        <alertBox.AlertBox />
       </div>
     </div>
   );
